@@ -1,0 +1,47 @@
+/* <---- main-div ----> */
+.main-div{
+   display: flex;
+   overflow: hidden;
+   height: 100vh;
+   
+}
+
+
+/* <----left-side ---->*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.left-side{
+    display: flex;
+    min-width: 20%;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-color: wheat;
+}
+.left-h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+.inputAnt{
+    width: 70%;
+    height: 5%;
+    margin-top: 5%;
+    transform: scale(1.1);
+}
+.textfield{
+    height : 20% !important;
+}
+
+/* <----right-side ---->*/
+.right-side{
+   max-width: 80%;
+   width: 80%;
+}
+.styled-textfield {
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+  }
+

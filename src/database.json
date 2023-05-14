@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "address": "123 Main St",
+    "latitude": "40.7128",
+    "longitude": "-74.0060",
+    "telephoneNumber": "555-1234",
+    "comment": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 2,
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "address": "456 Elm St",
+    "latitude": "41.8781",
+    "longitude": "-87.6298",
+    "telephoneNumber": "555-1234",
+    "comment": "Consectetur adipiscing elit."
+  },
+  {
+    "id": 3,
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "address": "789 Oak St",
+    "latitude": "34.0522",
+    "longitude": "-118.2437",
+    "telephoneNumber": "555-9876",
+    "comment": "Quisque nec mauris ac ex efficitur venenatis."
+  },
+  {
+    "id": 4,
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "address": "567 Maple Ave",
+    "latitude": "38.9072",
+    "longitude": "-77.0369",
+    "telephoneNumber": "555-4321",
+    "comment": "Vivamus in augue ligula."
+  },
+  {
+    "id": 5,
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "address": "890 Pine St",
+    "latitude": "39.9526",
+    "longitude": "-75.1652",
+    "telephoneNumber": "555-5678",
+    "comment": "Phasellus sed sollicitudin neque."
+  },
+  {
+    "id": 6,
+    "firstName": "David",
+    "lastName": "Wilson",
+    "address": "321 Oakwood Dr",
+    "latitude": "33.7490",
+    "longitude": "-84.3880",
+    "telephoneNumber": "555-7890",
+    "comment": "Nullam id purus mattis, pulvinar est ac, tincidunt dolor."
+  },
+  {
+    "id": 7,
+    "firstName": "Olivia",
+    "lastName": "Miller",
+    "address": "654 Cedar Rd",
+    "latitude": "37.7749",
+    "longitude": "-122.4194",
+    "telephoneNumber": "555-2345",
+    "comment": "Aenean eleifend lacus nec feugiat dictum."
+  },
+  {
+    "id": 8,
+    "firstName": "William",
+    "lastName": "Anderson",
+    "address": "987 Elmwood Ave",
+    "latitude": "42.3601",
+    "longitude": "-71.0589",
+    "telephoneNumber": "555-6789",
+    "comment": "Suspendisse eu neque ut orci tincidunt fermentum."
+  },
+  {
+    "id": 9,
+    "firstName": "Sophia",
+    "lastName": "Taylor",
+    "address": "753 Oakwood Dr",
+    "latitude": "29.7604",
+    "longitude": "-95.3698",
+    "telephoneNumber": "555-8765",
+    "comment": "Donec vel orci ac odio ullamcorper faucibus."
+  },  
+  {
+    "id": 11650000542,
+    "firstName": "ლექსო",
+    "lastName": "თიგიშვილი",
+    "address": "თაყაიშვილის 99",
+    "latitude": "41.99265703794397",
+    "longitude": "43.60843932137495",
+    "telephoneNumber": "599-49-19-22",
+    "comment": "ყიდულობს ფქვილს ყოველ თვეში 5 კილოს"
+  },  {
+    "id": 57001006037,
+    "firstName": "თამაზი",
+    "lastName": "თიგიშვილი",
+    "address": "თაყაიშვილის 99",
+    "latitude": "41.99265703794397",
+    "longitude": "43.60843932137495",
+    "telephoneNumber": "599-49-19-02 / 555-55-55-55",
+    "comment": "ყიდულობს ფქვილს ყოველ თვეში 15 კილოს"
+  },  {
+    "id": 11650000052,
+    "firstName": "ნიკა",
+    "lastName": "თიგიშვილი",
+    "address": "თაყაიშვილის 99",
+    "latitude": "41.99265703794397",
+    "longitude": "43.60843932137495",
+    "telephoneNumber": "597-91-51-03",
+    "comment": "იყიდა ფქვილი ერთხელ 2021/02/12"
+  }
+  ]

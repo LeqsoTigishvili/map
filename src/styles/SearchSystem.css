@@ -1,0 +1,101 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+.search-system {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  .left-h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+  
+  .search-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin-top: 0px;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+  }
+
+  .search-input {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .search-input:hover, .search-input:focus, .search-input:active {
+    -webkit-animation-name: search-input;
+    animation-name: search-input;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+  
+  .search-input:focus {
+    border-color: blue;
+    transform: scale(1.2);
+  }
+  
+  
+  .search-results {
+    margin-top: 20px;
+  }
+  .input-container {
+    position: relative;
+    width: 70%;
+
+  }
+  
+  .clear-input {
+    position: absolute;
+    top: 62%;
+    left: 230px;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #999;
+  }
+
+  .slick-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* No border */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor on hover */
+    transition: background-color 0.3s; /* Smooth color transition */
+    margin-top: 15px;
+  }
+  
+  .slick-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .slick-button:active {
+    background-color: #3e8e41; /* Darker green on click */
+  }
+  .comment-input{
+    height: 10%;
+    max-width: 70%;
+    resize: none;
+  }
