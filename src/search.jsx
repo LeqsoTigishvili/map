@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import database from "./database.json";
+import axios from "axios";
 import "./styles/SearchSystem.css";
 import MapComponent from "./map";
 
@@ -23,8 +23,18 @@ const SearchSystem = () => {
   });
   const [latitude, setLatitude] = useState(searchTerm.latitude);
   const [longitude, setLongitude] = useState(searchTerm.longitude);
+
   useEffect(() => {
-    setData(database);
+    const fetchData = async () => {
+      try {
+        const response = await axios.get("http://localhost:5000/database");
+        setData(response.data);
+      } catch (error) {
+        console.error("Error fetching data from the server:", error);
+      }
+    };
+
+    fetchData();
   }, []);
 
   useEffect(() => {
@@ -49,7 +59,6 @@ const SearchSystem = () => {
       address: [...new Set(addressSuggestions)],
     });
   }, [data]);
-
   const handleChange = (event) => {
     const { name, value } = event.target;
     setSearchTerm((prevSearchTerm) => ({
